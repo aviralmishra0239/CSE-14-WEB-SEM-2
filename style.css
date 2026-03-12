@@ -1,231 +1,33 @@
-<<<<<<< HEAD
-body{
-font-family: Arial;
-background-color:#f2f2f2;
-text-align:center;
-padding:40px;
-}
-.container{
-background:white;
-padding:25px;
-width:400px;
-margin:auto;
-border-radius:10px;
-box-shadow:0px 0px 10px gray;
-}
-input{
-padding:8px;
-width:80%;
-margin-top:5px;
-}
-button{
-padding:10px 20px;
-background-color:blue;
-color:white;
-border:none;
-border-radius:5px;
-cursor:pointer;
-}
-button:hover{
-background-color:darkblue;
-}
-#result{
-margin-top:20px;
-font-weight:bold;
-font-size:18px;
-=======
-<<<<<<< HEAD
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: rgb(126, 39, 166);
-}
-
-
-.navbar {
-    background-color: #1e293b;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #facc15;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    color: rgb(99, 50, 205)
-}
-
-/* superstar Section */
-.superstar {
+    font-family: Arial;
+    background-color: #eef2f3;
     text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(to right, #2563eb, #9333ea);
 }
-
-.hero h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
+.container {
+    width: 650px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
 }
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
+input {
+    padding: 8px;
+    margin: 5px;
 }
-
-.play-btn {
-    background-color: #facc15;
-    color: black;
-    padding: 15px 40px;
-    font-size: 18px;
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #28a745;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
-.play-btn:hover {
-    background-color: #eab308;
+button:hover {
+    background-color: #1e7e34;
 }
-
-
-.features {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.features h2 {
-    margin-bottom: 40px;
-    font-size: 32px;
-}
-
-.feature-box {
-    display: inline-block;
-    width: 250px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #3b1e28;
-    border-radius: 10px;
-}
-
-.feature-box h3 {
-    color: #facc15;
-}
-
-
-.footer {
-    background-color: #381e3b;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-=======
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0f172a;
-    color: rgb(126, 39, 166);
-}
-
-
-.navbar {
-    background-color: #1e293b;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #facc15;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    color: rgb(99, 50, 205)
-}
-
-/* superstar Section */
-.superstar {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(to right, #2563eb, #9333ea);
-}
-
-.hero h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.play-btn {
-    background-color: #facc15;
-    color: black;
-    padding: 15px 40px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.play-btn:hover {
-    background-color: #eab308;
-}
-
-
-.features {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.features h2 {
-    margin-bottom: 40px;
-    font-size: 32px;
-}
-
-.feature-box {
-    display: inline-block;
-    width: 250px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #3b1e28;
-    border-radius: 10px;
-}
-
-.feature-box h3 {
-    color: #facc15;
-}
-
-
-.footer {
-    background-color: #381e3b;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
->>>>>>> 31ccc6237efe298a77776324a99a16a06851cb0f
->>>>>>> 933a35e7465af18aa3f1458ce07d4f2ef9c3ad86
+#output {
+    margin-top: 20px;
+    text-align: left;
 }
