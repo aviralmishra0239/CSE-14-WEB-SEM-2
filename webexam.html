@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse a Number</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 350px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        input {
+            padding: 10px;
+            width: 90%;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4facfe;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #007bff;
+        }
+
+        #result {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Reverse a Number</h2>
+    <input type="number" id="number" placeholder="Enter a number">
+    <br>
+    <button onclick="reverseNumber()">Reverse</button>
+    <div id="result"></div>
+</div>
+
+<script>
+    function reverseNumber() {
+        let num = parseInt(document.getElementById("number").value);
+
+        if (isNaN(num)) {
+            document.getElementById("result").innerHTML = "Please enter a valid number";
+            return;
+        }
+
+        let reversed = 0;
+
+        while (num > 0) {
+            let digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num = Math.floor(num / 10);
+        }
+
+        document.getElementById("result").innerHTML =
+            "Reversed Number: " + reversed;
+    }
+</script>
+
+</body>
+</html>
